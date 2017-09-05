@@ -1,0 +1,6 @@
+public/
+
+samarthdave.github.io/*
+!samarthdave.github.io/.gitkeep
+
+src/node_modules

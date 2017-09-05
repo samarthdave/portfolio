@@ -1,0 +1,28 @@
+title = "Samarth Dave"
+baseURL = "https://samarthdave.github.io/"
+languageCode = "en-us"
+
+publishDir = "samarthdave.github.io"
+features = ["posts"]
+
+MetaDataFormat = "yaml"
+DefaultContentLanguage = "en"
+SectionPagesMenu = "main"
+Paginate = 6 # this is set low for demonstrating with dummy content. Set to a higher number
+googleAnalytics = ""
+enableRobotsTXT = true
+
+[sitemap]
+  changefreq = "monthly"
+  priority = 0.5
+  filename = "sitemap.xml"
+
+[params]
+  description = "My personal website"
+  facebook = ""
+  twitter = "https://twitter.com/SamarthDave512"
+  instagram = ""
+  youtube = ""
+  # choose a background color from any on this page: http://tachyons.io/docs/themes/skins/ and preface it with "bg-"
+  background_color_class = "bg-black"
+  featured_image = "/static/images/background.jpg"
