@@ -8,11 +8,13 @@
     <article class="center cf pv5 ph3 ph4-ns mw7">
       <p class="f6 b helvetica tracked">
         {{/* Humanize removes hyphens and capitalizes the first word */}}
-        {{ humanize .Section | upper  }}
+        {{/* humanize .Section | upper */}}
       </p>
-      <h1 class="f1 athelas">
-        {{ .Title }}
-      </h1>
+      {{ if not .Params.featured_image }}
+        <h1 class="f1 athelas">
+          {{ .Title }}
+        </h1>
+      {{ end }}
         {{/* TODO: Add Hugo author  */}}
         {{/* Hugo uses Go's date formatting is set by example. Here are two formats */}}
       <time class="f6 mv4 dib tracked" datetime="{{ .Date.Format "2006-01-02T15:04:05Z07:00" }}">
