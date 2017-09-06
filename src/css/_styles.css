@@ -1,5 +1,6 @@
 header.cover.bg-top {
-  background-position: bottom;
+  background-position-x: right;
+  background-position-y: bottom;
 }
 
 .pa3 {
@@ -26,6 +27,11 @@ h2.fw1.f5.f3-l.white-80.measure-wide-l.center.mt3 {
 
 * {
   font-family: Arial
+}
+
+/*remove large padding in posts*/
+.pv5 {
+  padding-top: .5rem;
 }
 
 
