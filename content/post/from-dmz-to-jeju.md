@@ -1,8 +1,8 @@
 ---
-title: "From DMZ to Seoul to Jeju"
+title: From DMZ to Seoul to Jeju
 date: 2017-08-28T23:53:01-05:00
 featured_image: /images/background.jpg
-description: "what you don't know about the peninsula"
+description: what you don't know about the peninsula
 draft: true
 twitterHandle: SamarthDave512
 ---

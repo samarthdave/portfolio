@@ -32,7 +32,20 @@ h2.fw1.f5.f3-l.white-80.measure-wide-l.center.mt3 {
 /*remove large padding in posts*/
 .pv5 {
   padding-top: .5rem;
+  padding-bottom: .5rem;
 }
+
+/*more padding from bottom*/
+.pb7 {
+  padding-bottom: 1rem;
+}
+
+/*min height for background photo*/
+.bg-black-60 {
+  min-height: 350px;
+}
+
+
 
 
 
