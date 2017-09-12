@@ -16,8 +16,7 @@
       {{ else }}
         <META NAME="ROBOTS" CONTENT="NOINDEX, NOFOLLOW">
       {{ end }}
-
-     <link href='{{ "dist/main.css" | absURL }}' rel='stylesheet' type="text/css" />
+      <link rel="stylesheet" type="text/css" href="/dist/main.css?v={{ .Now.Unix }}">
 
      {{ if .RSSLink }}
       <link href="{{ .RSSLink }}" rel="alternate" type="application/rss+xml" title="{{ .Site.Title }}" />
