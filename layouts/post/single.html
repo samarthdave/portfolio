@@ -19,6 +19,9 @@
         {{/* Hugo uses Go's date formatting is set by example. Here are two formats */}}
       <time class="f6 mv4 dib tracked" datetime="{{ .Date.Format "2006-01-02T15:04:05Z07:00" }}">
         {{ .Date.Format "January 2, 2006" }}
+        {{ if .Params.draftLabel }}
+          <span class="pink-label">DRAFT</span>
+        {{ end }}
         {{ if .Params.twitterHandle }}
           <br><br>
           <a href="https://twitter.com/share" class="twitter-share-button" data-via="{{ .Params.twitterHandle }}">Tweet</a> <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+'://platform.twitter.com/widgets.js';fjs.parentNode.insertBefore(js,fjs);}}(document, 'script', 'twitter-wjs');</script>
