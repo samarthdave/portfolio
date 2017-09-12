@@ -3,6 +3,7 @@ title: Contact
 featured_image: /images/background.jpg
 description: Whoa...you want to contact me? I'm honored
 type: page
+noTitle: true
 menu:
   main: {}
 
