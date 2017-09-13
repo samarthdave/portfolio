@@ -1,7 +1,5 @@
 ---
-title: "About"
-description: "Coder + Camera + Computer"
-featured_image: '/images/background.jpg'
+title: About
+description: Motivated mostly by food and sometimes my desire to succeed
+featured_image: /images/background.jpg
 ---
-
-An alliteration was all I could do.
