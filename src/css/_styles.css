@@ -42,7 +42,7 @@ h2.fw1.f5.f3-l.white-80.measure-wide-l.center.mt3 {
 
 /*min height for background photo*/
 .bg-black-60 {
-  min-height: 350px;
+  min-height: 600px;
 }
 
 /*larger font homepage*/
@@ -55,13 +55,6 @@ h2.fw1.f5.f3-l.white-80.measure-wide-l.center.mt3 {
 @media screen and (min-width: 60em) {
   .f1-l {
     font-size: 3.5rem;
-  }
-}
-
-/*padding on homepage*/
-@media screen and (min-width: 60em) {
-  .pv6-l {
-    padding-top: 2rem;
   }
 }
 
