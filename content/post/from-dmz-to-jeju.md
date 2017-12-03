@@ -16,7 +16,7 @@ I bet you came here for the DMZ but S. Korea is so much more than that. But even
 
 Anyways, here's a summary of my visit to the DMZ and JSA (Joint Security Area). But before you read any further, take a look at this image (no I didn't turn up the saturation; Korea is just **that** green). It's called Reunification Bridge and it represents hope for a united Korea, one in which all mistakes are forgiven and there is hope for an Earth at peace, something that becomes harder and harder to attain when our president talks about unleashing "fire and fury like the world has never seen".
 
-![Reunification Bridge](/images/DSC_0094.JPG)
+![Reunification Bridge](/images/korea-thumbnail.jpg)
 
 ## "Sir, if you touch the soldier, he WILL touch you back."
 
