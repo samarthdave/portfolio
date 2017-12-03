@@ -6,6 +6,7 @@ featured_image: /images/DSC_0094.JPG
 draft: false
 draftLabel: true
 twitterHandle: SamarthDave512
+text_shadow: true
 ---
 
 ## "fire and fury like the world has never seen"

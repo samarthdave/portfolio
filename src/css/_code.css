@@ -5,7 +5,7 @@ pre, .pre  {
 }
 
 
-pre  code {
+pre code {
   display: block;
   padding: 1.5em 1.5em;
   white-space: normal;

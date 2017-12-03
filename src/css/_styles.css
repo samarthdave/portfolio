@@ -1,6 +1,19 @@
 header.cover.bg-top {
   background-position-x: right;
   background-position-y: bottom;
+  min-height: 100vh;
+}
+
+@media screen and (min-width: 30em) {
+  header .f4-ns {
+    font-size: 1rem;
+  }
+}
+
+
+.site-title {
+  font-family: "Quicksand", sans-serif;
+  font-weight: bold;
 }
 
 .pa3 {
@@ -13,10 +26,9 @@ a.f4.fw4.hover-white.no-underline.white-70.dn.dib-ns.pv2.ph3 {
   font-size: 1rem;
 }
 
-/*background image transparency*/
-
-.bg-black-60 {
-  background-color: rgba(0, 0, 0, .2);
+/*header font*/
+#full-page-title {
+  font: normal 60px "Open Sans", sans-serif;
 }
 
 /*fix small text on home page for mobile*/
@@ -24,10 +36,6 @@ h2.fw1.f5.f3-l.white-80.measure-wide-l.center.mt3 {
   font-size: 1.3rem;
 }
 
-
-* {
-  font-family: Arial
-}
 
 /*remove large padding in posts*/
 .pv5 {
@@ -38,11 +46,6 @@ h2.fw1.f5.f3-l.white-80.measure-wide-l.center.mt3 {
 /*more padding from bottom*/
 .pb7 {
   padding-bottom: 1rem;
-}
-
-/*min height for background photo*/
-.bg-black-60 {
-  min-height: 600px;
 }
 
 /*larger font homepage*/
@@ -65,8 +68,25 @@ h2.fw1.f5.f3-l.white-80.measure-wide-l.center.mt3 {
   padding: 4px;
 }
 
+/*change header padding*/
+.tc-l.pv4.pv6-l.ph3.ph4-ns {
+  padding-top: 1rem;
+}
 
+.twitter.link {
+  position: relative;
+  top: 3px;
+}
 
+/*fixing navbar*/
+.pv3 {
+  padding-top: .5rem;
+  padding-bottom: .5rem;
+}
+
+.shadow-page {
+  text-shadow: 0 0 10px #000;
+}
 
 
 

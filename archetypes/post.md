@@ -6,4 +6,5 @@ featured_image: /images/background.jpg
 twitterHandle: SamarthDave512
 draft: true
 draftLabel: true
+text_shadow: false
 ---
