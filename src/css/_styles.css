@@ -99,7 +99,14 @@ footer.bg-near-black.bottom-0 {
   background: #555;
 }
 
-
+/*post summary text*/
+.w-100.w-60-ns.pl3-ns {
+  color: #555;
+  font-family: "Open Sans", sans-serif;
+}
+.w-100.w-60-ns.pl3-ns h1 {
+  font-family: "Quicksand", sans-serif;
+}
 
 
 

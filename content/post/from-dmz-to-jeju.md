@@ -2,9 +2,8 @@
 title: From DMZ to Seoul to Jeju
 description: what you don't know about the peninsula
 date: 2017-08-28T23:53:01-05:00
-featured_image: /images/DSC_0094.JPG
-draft: false
-draftLabel: true
+featured_image: /images/korea-background.jpg
+featured_image_thumb: /images/korea-thumbnail.jpg
 twitterHandle: SamarthDave512
 text_shadow: true
 ---

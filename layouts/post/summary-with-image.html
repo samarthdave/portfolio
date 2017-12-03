@@ -1,9 +1,9 @@
 <article class="bb b--black-10">
   <a class="db pv4 ph3 ph0-l no-underline dark-gray dim" href="{{ .URL }}">
     <div class="flex flex-column flex-row-ns">
-      {{ if not .Params.featured_image }}
+      {{ if not .Params.featured_image_thumb }}
         <div class="pr3-ns mb4 mb0-ns w-100 w-40-ns">
-          <img src="{{ .Params.featured_image }}" class="db" alt="image from {{ .Title }}">
+          <img src="{{ .Params.featured_image_thumb }}" class="db" alt="image from {{ .Title }}">
         </div>
       {{ end }}
       <div class="w-100{{ if .Params.featured_image }} w-60-ns pl3-ns{{ end }}">

@@ -4,7 +4,7 @@ description:
 date: {{ .Date }}
 featured_image: /images/background.jpg
 twitterHandle: SamarthDave512
-draft: true
-draftLabel: true
+draft: false
 text_shadow: false
+featured_image_thumb: /images/background-thumbnail.jpg
 ---
