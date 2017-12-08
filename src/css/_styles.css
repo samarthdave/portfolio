@@ -28,7 +28,13 @@ a.f4.fw4.hover-white.no-underline.white-70.dn.dib-ns.pv2.ph3 {
 
 /*header font*/
 #full-page-title {
-  font: normal 60px "Open Sans", sans-serif;
+  font-family: "Open Sans", sans-serif;
+  font-size: 3rem;
+}
+@media screen and (min-width: 60em) {
+  #full-page-title {
+    font-size: 4rem;
+  }
 }
 
 /*fix small text on home page for mobile*/
