@@ -123,3 +123,18 @@ footer.bg-near-black.bottom-0 {
 
 
 /*end*/
+
+
+/* margin on time div */
+.mv4 {
+  margin: 1em 0 .5em 0;
+}
+
+/* recommended items / reads in ul unordered list */
+.bg-light-gray.pa3 ul {
+  padding: 0;
+  margin: .2em;
+}
+.mb3 {
+  margin: 0 0 .2em .2em;
+}
